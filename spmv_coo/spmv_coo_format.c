@@ -21,7 +21,7 @@
         int c=coo.clmnptrs[i];
 
         double m_val=coo.vals[i];
-        int v=V[c];
+        double v=V[c];
 
         #pragma omp atomic
         res[r]+=m_val*v;
